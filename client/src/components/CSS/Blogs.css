@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital@1&family=Sofia&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+body {
+  background: #ccc;
+  /* margin: 30px 50px; */
+  line-height: 1.4;
+}
+.blog-title{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 3.1em;
+    font-family: "Poppins", sans-serif;
+    /* color: white; */
+    text-shadow: 3px 3px 3px black;
+}
+.blog-btn {
+  background: #333;
+  color: #ccc;
+  /* 1rem=14px--rem is responsive */
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  /* margin-top: 100px; */
+  /* padding-top: 100px; */
+  padding-bottom: 100px;
+  display: grid;
+  grid-gap: 20px;
+
+  /* margin: 30px 50px; */
+}
+.blog-head {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px 0;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-size: 3.1em;
+  font-family: "Poppins", sans-serif;
+  /* color: white; */
+  text-shadow: 3px 3px 3px #eb7171;
+}
+/* top container */
+.top-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "showcase showcase top-box-a"
+    "showcase showcase top-box-b";
+}
+/* showcase */
+.showcase {
+  margin-top: 10px;
+  grid-area: showcase;
+  min-height: 400px;
+  /* background: url("/assets/images/img6.jpg"); */
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+.showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  /* color: black; */
+  /* lower case are converted to uppercase */
+  font-variant: small-caps;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Sofia", cursive;
+  /* text-shadow: 3px 3px 3px #ababab; */
+  text-shadow: 10px 3px 3px #ababab;
+}
+.showcase p {
+  font-size: 1.3rem;
+  margin-top: 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+/* top Box */
+.top-box {
+  /* margin-left: 50px; */
+  background: #fff;
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem;
+}
+
+.top-box-a {
+  margin-top: 10px;
+  grid-area: top-box-a;
+}
+.top-box-b {
+  grid-area: top-box-b;
+}
+
+/* boxes */
+.boxes {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.blog-life {
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+.box {
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+/* info */
+.info {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  background: #ccc;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 80px;
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  /* padding: 3rem; */
+}
+.inform {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+.blog-link{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+}
+.blog-link:hover{
+  color: gray;
+}
+
+.back-icon {
+  margin-left: 40px;
+  text-decoration: none;
+}
+.back-icon a:link {
+  text-decoration: none;
+}
+
+.back-icon a:visited {
+  text-decoration: none;
+}
+
+.back-icon a:hover {
+  text-decoration: #df4881;
+}
+
+.back-icon a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .top-container {
+    grid-template-areas:
+      "showcase showcase"
+      "top-box-a top-box-b";
+  }
+  .showcase h1 {
+    font-size: 2.5rem;
+  }
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .info .btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 700px) {
+  .top-container {
+    grid-template-areas:
+      "showcase "
+      "top-box-a "
+      "top-box-b";
+  }
+}
+
+.image5{
+    height: 330px;
+    width: 560px;
+    
+}
+.fa{
+  color: #11cf90;
+}
+.fa:hover{
+  padding-top: 2px;
+  transition: .1s ease;
+  
+}

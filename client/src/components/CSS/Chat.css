@@ -1,0 +1,17 @@
+.chat-title{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 3.1em;
+    font-family: "Poppins", sans-serif;
+    /* color: white; */
+    text-shadow: 3px 3px 3px black;
+}
+.boxes{
+    margin-bottom: 60px;
+}

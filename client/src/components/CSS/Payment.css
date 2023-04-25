@@ -1,0 +1,74 @@
+/* body {
+    background: #ccc;
+} */
+* {
+    box-sizing: border-box;
+  }
+
+.payment-page {
+    /* margin-left: 50px;
+
+    margin-top: 50px; */
+    padding: 0;
+    margin: 0;
+    background-color: rgb(219, 218, 218);
+    width: 800px;
+    margin: 0 auto;
+    height: 75vh;
+    padding-top: 80px;
+    
+   
+  
+}
+.payment-button{
+    margin-left: 200px;
+    
+}
+.payment-link{
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    
+}
+
+.btn--primary {
+    background: cyan;
+    color: black;
+}
+
+.btn--primary:hover {
+    background: rgb(8, 167, 167);
+}
+
+.btn--secondary {
+    background: #11cf90;
+    color: black;
+}
+
+.btn--secondary:hover {
+    background: #057751;;
+}
+
+/* media query is when the screen is getting larger than 1024px */
+@media screen and (min-width:1024px) {
+    class {
+        font-size: 1.5rem;
+
+    }
+
+    btn {
+        font-size: 1.5rem;
+
+    }
+}

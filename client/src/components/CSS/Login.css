@@ -1,0 +1,8 @@
+.login__bg{
+    background-image: url('../../images/menh.jpg'); 
+    height: 92vh;
+    background-position: center;
+    background-size: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}

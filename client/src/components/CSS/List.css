@@ -1,0 +1,85 @@
+:root{
+    --mainColor: black;
+}
+.main-nav{
+    background-color: var(--mainColor);
+}
+.logoContainer h1{
+    color: #11cf90;
+}
+.container1{
+    width: 95%;
+    /* background-color: orange; */
+    margin:  0 auto;
+    max-width: 1200px;
+}
+.container-flex{
+    /*to make children appear horizontally  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* width: 130px;
+    padding: 5em 0; */
+    color: white;
+    font-size: 3rem !important;
+}
+.list{
+    display: flex;
+}
+.listItem{
+    margin-left: 2em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.listItem:hover{
+    color: #11cf90;
+}
+.activeItem{
+    color: orange;
+    border-bottom: .1em double #fff;
+}
+/* .icon{
+    color: #fff;
+    !important because mui has its own font size
+    font-size: 1.5rem !important;
+    margin-right: 1em;
+    margin-left: 1.5em;
+} */
+/* media queries */
+/* @media screen and (max-width:1100px) {
+    .icon{
+        margin-left: 1em;
+    }
+    
+} */
+@media screen and (max-width:768px) {
+html{
+    font-size: 13px;
+}
+.container-flex{
+    flex-direction: column;
+}
+.logo{
+    width: 150px;
+}
+.icon{
+    margin: 1em 1.5em;
+}
+}
+@media screen and (max-width:568px) {
+    html{
+        font-size: 11px;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .listItem{
+        margin-top: .2em;
+    }
+    .logo{
+        font-size: 2em !important;
+    }
+    }

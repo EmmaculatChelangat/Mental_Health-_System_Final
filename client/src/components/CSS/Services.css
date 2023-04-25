@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+    * {
+      font-family: "Open Sans", sans-serif;
+      font-size: small;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-transform: capitalize;
+    }
+    body {
+      background: #ccc;
+    }
+    .service-head {
+      text-align: center;
+      font-size: 35px;
+      padding: 20px 0;
+      color: white;
+      margin-top: 60px;
+      text-align: center;
+      font-variant: small-caps;
+      font-weight: 700;
+      font-size: 3.1em;
+      font-family: "Poppins", sans-serif;
+      /* color: white; */
+      text-shadow: 3px 3px 3px black;
+    }
+
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
+      padding: 20px;
+    }
+    .box-container .box {
+      padding: 10px;
+      border-radius: 10px;
+      background: #fff;
+      border: 2px solid #ccc;
+      text-align: center;
+    }
+    .box-container .box .icon {
+      margin-top: 10px;
+    }
+    .box-container .box .icon span {
+      margin: 10px 0;
+      font-size: 35px;
+      color: #666;
+    }
+    .box-container .box .title {
+      color: black;
+      font-size: 1.5em;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    .box-container .box p {
+      font-size: 13px;
+      color: #666;
+      padding: 10px;
+    }
+    .box-container .box a {
+      color: black;
+      font-weight: 600;
+      text-decoration: none;
+      display: block;
+      padding: 10px 0;
+      font-size: 17px;
+      cursor: pointer;
+    }
+    .box-container .box a:hover {
+      color: #11cf90;
+    }
+    .service-icon{
+      color: #11cf90;
+    
+    }

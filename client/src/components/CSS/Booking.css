@@ -1,0 +1,48 @@
+.plan-title {
+    text-align: center;
+        /* font-size: 35px; */
+        padding: 10px 0;
+        color: black;
+        margin-top: 0px;
+        text-align: center;
+        font-variant: small-caps;
+        /* font-weight: 700; */
+        font-size: 3.1em;
+        font-family: "Poppins", sans-serif;
+        /* color: white; */
+        /* text-shadow: 3px 3px 3px gray; */
+  }
+  .plan-list {
+    width: 700px;
+    font-size: 19px;
+    /* font-family: "Poppins", sans-serif; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+  }
+  
+  
+.card-plan {
+  height: 85vh;
+  padding: 30px;
+}
+.card-planning {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.card-button {
+  background-color: #11cf90;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+.card-planning-text{
+    padding: 0px;
+    font-size: 2em;
+    color: black;
+}
+

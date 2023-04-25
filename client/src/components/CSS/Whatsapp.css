@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --red: red;
+    --gray: #f4f6f8
+    --grey-text: gray;
+    --blue: blue;
+    --white: white;
+    --black: black;
+    --green: green;
+    --body-text: #676e8b;
+    --green: green;
+}
+.float-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    z-index: 200;
+    background: var(--green);
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--white);
+    height: 10vh;
+    width: 10vh;
+}
+.float-whatsapp a{
+    color: white;
+}
+.float-whatsapp i{
+    font-size: 30px;
+}
